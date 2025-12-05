@@ -1,6 +1,6 @@
 const TeamSection = () => {
   const team = [
-    { name: "Mohammed Aldeen", role: "Lead Researcher, School of Computing, Clemson University" },
+    { name: "Mohammed Aldeen", role: "Researcher, School of Computing, Clemson University" },
     { name: "Pranav Pradosh Silimkhan", role: "Researcher, School of Computing, Clemson University" },
     { name: "Ethan Anderson", role: "Researcher, School of Computing, Clemson University" },
     { name: "Taran Kavuru", role: "Researcher, School of Computing, Clemson University" },
