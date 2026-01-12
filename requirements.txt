@@ -1,0 +1,59 @@
+# Core
+streamlit==1.31.1
+streamlit-authenticator==0.2.3
+
+# OpenAI client (new version) + its typing dependency
+openai>=1.40.0
+typing_extensions>=4.12.2
+
+# Data / utilities
+pandas==1.5.3
+pyyaml
+requests
+python-dotenv
+
+# HuggingFace + datasets for your collectors
+datasets>=2.21.0,<3.0.0
+huggingface-hub>=0.36.0,<1.0.0
+
+# Visualization / misc (add as you actually use them)
+matplotlib
+seaborn
+plotly
+pyLDAvis 
+wordcloud 
+
+# ICOAR-specific scrapers
+facebook-scraper @ git+https://github.com/seabnavin19/facebook-scraper.git@fix/get_post_by_search
+
+lxml[html_clean]
+requests-html
+praw
+tweepy[async]
+snscrape @ git+https://github.com/JustAnotherArchivist/snscrape.git
+twscrape
+kaggle
+datasets
+huggingface-hub
+selenium==4.11.2
+google-api-python-client
+google-api-core
+# Text preprocessing / NLP
+better-profanity
+tweet-preprocessor
+spacy
+gensim
+nltk 
+
+# NLP models for validation tab
+torch
+transformers
+tensorflow
+easyocr
+torchvision
+langchain==0.1.20
+openai==1.57.0
+lxml[html_clean]
+
+
+
